@@ -1,27 +1,27 @@
 * {
 	box-sizing: border-box;
+
 }
 
-body {
 
-	background-color: white;
-}
 
 .wc-main {
-	max-width: 87%;
+	max-width: 1300px;
 	background-color: #fff;
-	margin: 128px auto 120px;
-	padding: 144px 124px 120px;
+	margin: 130px auto;
+	padding: 121px;
 	-webkit-box-shadow: 2px 2px 100px 50px rgba(0,0,0,0.04);
 	-moz-box-shadow: 2px 2px 100px 50px rgba(0,0,0,0.04);
 	box-shadow: 2px 2px 100px 50px rgba(0,0,0,0.04);
 }
 
-.wc-heading {
+.wc-header {
 	font-family: "Playfair Display", serif;
 	font-size: 42px;
-	/* margin: 0; */
+	letter-spacing: -0.005em;
 	margin-top: 0;
+	margin-bottom: 18px;
+	
 }
 
 
@@ -31,14 +31,17 @@ body {
 	float: left;
 	line-height: 90px;
 	margin-right: 23px;
+	color: #000;
 	
 }
+
 .wc-paragraph-1 {
-	margin-bottom: 50px;
+	margin-top: 18px;
+	margin-bottom: 42px;
 }
 
 .wc-paragraph-2 {
-	margin-bottom: 50px;
+	margin-bottom: 42px;
 }
 
 .wc-paragraph-1, .wc-paragraph-2, .wc-paragraph-3 {
@@ -49,6 +52,7 @@ body {
 	margin-top: 0;
 	clear: left;
 	text-align: left;
+	color: rgba(23, 23, 23, 0.7)
 	/* width: 95%; */
 }
 /* p {
@@ -69,6 +73,7 @@ body {
 	margin-left: 0;
 	/* letter-spacing: px; */
 	margin-bottom: 37px;
+	color: rgba(23, 23, 23, 0.7)
 
 }
 
@@ -93,10 +98,10 @@ body {
 	color: #eaa258;
 	text-transform: uppercase;
 	background-color: #fff;
-	border: 3px solid #eaa258;
+	border: 2px solid #eaa258;
 	font-size: 18px;
 	padding: 25px 70px;
-	letter-spacing: 0.2em;
+	letter-spacing: .2em;
 	font-weight: 700;
 	outline: none;
 	position: relative;
@@ -105,7 +110,7 @@ body {
 
 .wc-button:hover {
 	cursor: pointer;
-	background-color: rgba(234, 162, 88, 0.3);
+	background-color: rgba(234, 162, 88, 0.1);
 	transition: all 0.3s ease;
 }
 
